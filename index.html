@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blinking Terminal Cursor</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <style>
+      /* Define animation */
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      /* Apply animation to cursor */
+      .cursor {
+        animation: blink 1s infinite;
+      }
+
+      body {
+        background-color: #fff;
+        color: #333;
+      }
+      
+      .dark-mode {
+        background-color: #333;
+        color: #fff;
+      }
+
+      header {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+       }
+       ul {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body class=" w3-animate-top">
+
+
+<header >
+  <h1> Bruce 米南加 <button style='font-size:24px' id="mode-toggle" ><i class="fa fa-lightbulb-o"></i></button> </h1>
+  <p>Anxieties that keep me up</p>
+
+  <div class="w3-bar ">
+    <a href="#" class="w3-bar-item w3-button">BruceMinanga@fedora> <span  style="font-size:20px; font-family: monospace;" class="cursor">|</span></a>
+    <a href="#" class="w3-bar-item w3-button">Blog</a>
+    <a href="#" class="w3-bar-item w3-button">HireMe</a>
+    <a href="#" class="w3-bar-item w3-button">Uses</a>
+    <a href="#" class="w3-bar-item w3-button">Donate</a>
+
+  </div>
+
+ </header>
+ <div class="w3-center class=" >
+
+ <img class="w3-circle w3-margin-top " style="width:30%; min-height:350px;max-height:600px;" src="2022-07-19T00:01:07,221733770+03:00.png" alt="Coming soon"> 
+<p>Hello there!
+
+  I’m unemployed, sorry I mean I’m POURIA 🦋. Currently based in Tehran.
+  
+  I use web technologies such as TypeScript, React and Node.js to create things I find useful and interesting. Right now I’m fascinated by WebGL, Three.js, 3D graphics, math and generative art and music and I’m shifting my focus there.
+  
+  I run a programming community called The Devs. I’ve created it in 2016, it’s a network of groups on Telegram where everyone can chat, discuss and be in touch with their fellow coders. It has now more than 20 specialized groups and more than 33000 members on the main channel.
+  
+  I do some open source work too when I have free time:
+  
+      Kutt: a “modern” URL shortener.
+      Telegram Directory: Telegram directory to discover channels, bots and groups.
+      The Guard Bot: A Telegram bot to moderate groups.
+  
+  Check out my my GitHub for more.
+  
+  Want to say hi? Contact me via email hi@pouria.dev or Telegram @poeti8.
+</p> 
+</div>
+<script>
+const toggleButton = document.getElementById('mode-toggle');
+const body = document.body;
+
+toggleButton.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
+</script>
+
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
