@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Bruce-Personal-Website</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>Bruce Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,6 +17,8 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <style>
       /* Define animation */
@@ -54,8 +60,8 @@
       }
     </style>
   </head>
-  <body class="w3-animate-top">
-    <header>
+  <body>
+    <header class="container-fluid p-5 bg-primary text-white text-center">
       <h1>
         Bruce 米南加
         <button style="font-size: 24px" id="mode-toggle">
@@ -64,19 +70,20 @@
       </h1>
       <p>Anxieties that keep me up</p>
 
-      <div class="w3-bar">
-        <a href="#" class="w3-bar-item w3-button"
+      <div class="container-fluid p-5 bg-primary text-white text-center">
+        <a href="#" class="btn btn-light"
           >BruceMinanga@fedora>
           <span style="font-size: 20px; font-family: monospace" class="cursor"
             >|</span
           ></a
         >
-        <a href="#" class="w3-bar-item w3-button">Blog</a>
-        <a href="#" class="w3-bar-item w3-button">HireMe</a>
-        <a href="#" class="w3-bar-item w3-button">Uses</a>
-        <a href="#" class="w3-bar-item w3-button">Donate</a>
+        <a href="#" class="btn btn-light">Blog</a>
+        <a href="#" class="btn btn-light">HireMe</a>
+        <a href="#" class="btn btn-light">Uses</a>
+        <a href="#" class="btn btn-light">Donate</a>
       </div>
     </header>
+
     <div class="w3-center class=">
       <img
         class="w3-circle w3-margin-top"
@@ -84,6 +91,7 @@
         src="2022-07-19T00:01:07,221733770+03:00.png"
         alt="Coming soon"
       />
+
       <p>
         Hello there! I'm incredibly passionate about technology, and my journey
         apparently began in 2020 during the memorable Corona Period. I took the
@@ -103,7 +111,7 @@
         team. Let's join forces and create fantastic, easy-to-use products
         together If you're looking for someone with a passion for technology.
       </p>
-    </div>
+
     <script>
       const toggleButton = document.getElementById("mode-toggle");
       const body = document.body;
@@ -112,8 +120,5 @@
         body.classList.toggle("dark-mode");
       });
     </script>
-
-    <!-- Include Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
