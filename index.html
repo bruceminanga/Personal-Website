@@ -61,56 +61,161 @@
     </style>
   </head>
   <body>
-    <header class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>
-        Bruce 米南加
-        <button style="font-size: 24px" id="mode-toggle">
-          <i class="fa fa-lightbulb-o"></i>
-        </button>
-      </h1>
-      <p>Anxieties that keep me up</p>
+    <div class="container">
+      <header class="container-fluid p-5 text-white text-center">
+        <h1>
+          Bruce 米南加
+          <button style="font-size: 24px" id="mode-toggle">
+            <i class="fa fa-lightbulb-o"></i>
+          </button>
+        </h1>
+        <p>Anxieties that keep me awake</p>
 
-      <div class="container-fluid p-5 bg-primary text-white text-center">
-        <a href="#" class="btn btn-light"
-          >BruceMinanga@fedora>
-          <span style="font-size: 20px; font-family: monospace" class="cursor"
-            >|</span
-          ></a
-        >
-        <a href="#" class="btn btn-light">Blog</a>
-        <a href="#" class="btn btn-light">HireMe</a>
-        <a href="#" class="btn btn-light">Uses</a>
-        <a href="#" class="btn btn-light">Donate</a>
-      </div>
-    </header>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              >BruceMinanga@fedora>
+              <span
+                style="font-size: 20px; font-family: monospace"
+                class="cursor"
+                >|</span
+              ></a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="whoami-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#whoami"
+              type="button"
+              role="tab"
+              aria-controls="whoami"
+              aria-selected="true"
+            >
+              Whoami
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="project-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#project"
+              type="button"
+              role="tab"
+              aria-controls="project"
+              aria-selected="true"
+            >
+              Projects
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact"
+              type="button"
+              role="tab"
+              aria-controls="contact"
+              aria-selected="true"
+            >
+              HireMe
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="story-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#story"
+              type="button"
+              role="tab"
+              aria-controls="story"
+              aria-selected="false"
+            >
+              StoryLine
+            </button>
+          </li>
+        </ul>
 
-    <div class="w3-center class=">
-      <img
-        class="w3-circle w3-margin-top"
-        style="width: 30%; min-height: 350px; max-height: 600px"
-        src="2022-07-19T00:01:07,221733770+03:00.png"
-        alt="Coming soon"
-      />
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="whoami"
+            role="tabpanel"
+            aria-labelledby="whoami-tab"
+          >
+            <h3>Who?</h3>
+            <ul class="list-group">
+              <li class="list-group-item">Linux System Administrator</li>
+              <li class="list-group-item">Website Developer</li>
+              <li class="list-group-item">Bot Developer</li>
+            </ul>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="project"
+            role="tabpanel"
+            aria-labelledby="project-tab"
+          >
+            <h3>Projects?</h3>
+            <ul class="list-group">
+              <li class="list-group-item">Invoice Management System</li>
+              <li class="list-group-item">Newspaper App</li>
+              <li class="list-group-item">Discussion Forum</li>
+              <li class="list-group-item">Social Website App</li>
+              <li class="list-group-item">Elearning Platform</li>
+              <li class="list-group-item">Ecommerce Website</li>
+            </ul>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+          >
+            <h3>HireMe?</h3>
+            <ul class="list-group">
+              <li class="list-group-item">As Linux System Administrator</li>
+              <li class="list-group-item">As Website Developer</li>
+              <li class="list-group-item">As Bot Developer</li>
+            </ul>
+            <h6>Send me an Email With the title as a quote</h6>
+          </div>
 
-      <p>
-        Hello there! I'm incredibly passionate about technology, and my journey
-        apparently began in 2020 during the memorable Corona Period. I took the
-        initiative to teach myself and learned all about Linux System
-        Administration, which is like being a computer expert. In 2021, I
-        discovered something super cool called Python and Django, which are
-        special ways of coding. Then, in 2022, I successfully completed my
-        undergraduate Computer Science course. Currently, my main focus is on
-        web development, where I create awesome websites. My goal is to become
-        really, really good at it! I'm also excited to explore the world of
-        DevSecOps, which involves protecting and strengthening digital systems.
-        In my free time, I love to immerse myself in various activities such as
-        Computer Repair, Problem-Solving, Teaching and doing some small projects
-        for my family and friends. This helps me to continuously expand my
-        knowledge and stay ahead in the ever-evolving tech landscape. Lastly, I
-        love Collaborating with others. I genuinely enjoy working as part of a
-        team. Let's join forces and create fantastic, easy-to-use products
-        together If you're looking for someone with a passion for technology.
-      </p>
+          <div
+            class="tab-pane fade"
+            id="story"
+            role="tabpanel"
+            aria-labelledby="story-tab"
+          >
+            <p>
+              Wanna here from the story? I'm incredibly passionate about
+              technology, and my journey apparently began in 2020 during the
+              memorable Corona Period. I took the initiative to teach myself and
+              learned all about Linux System Administration, which is like being
+              a computer expert. In 2021, I discovered something super cool
+              called Python and Django, which are special ways of coding. Then,
+              in 2022, I successfully completed my undergraduate Computer
+              Science course. Currently, my main focus is on web development,
+              where I create awesome websites. My goal is to become really,
+              really good at it! I'm also excited to explore the world of
+              DevSecOps, which involves protecting and strengthening digital
+              systems. In my free time, I love to immerse myself in various
+              activities such as Computer Repair, Problem-Solving, Teaching and
+              doing some small projects for my family and friends. This helps me
+              to continuously expand my knowledge and stay ahead in the
+              ever-evolving tech landscape. Lastly, I love Collaborating with
+              others. I genuinely enjoy working as part of a team. Let's join
+              forces and create fantastic, easy-to-use products together If
+              you're looking for someone with a passion for technology.
+            </p>
+          </div>
+        </div>
+      </header>
+    </div>
 
     <script>
       const toggleButton = document.getElementById("mode-toggle");
