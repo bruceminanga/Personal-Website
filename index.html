@@ -58,6 +58,15 @@
       ul {
         text-align: left;
       }
+
+      footer#main-footer .quotes span {
+  padding-right: 80px;
+}
+
+footer#main-footer {
+  color: #005675;
+  font-size: 16px;
+}
     </style>
   </head>
   <body>
@@ -226,7 +235,51 @@
         </div>
       </header>
     </div>
+    <div class="position-relative container p-5 my-5">
+      <!-- Footer -->
+      <footer id="main-footer">
+        <p class="text-center">Spy on me via 👀:</p>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/bruceminanga"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://t.me/bruceminanga"
+              target="_blank"
+              rel="noopener noreferrer"
+              >telegram</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bruceminanga@gmail.com">email</a>
+          </li>
+        </ul>
+        <br />
+        <br />
 
+        <marquee class="quotes" direction="left"
+          ><span
+            >This website has a better view on larger screen, proceed with
+            caution !!1!</span
+          ><span></span>
+            My eyesight got worse due to too much exposer on laptops
+            screen.</span
+          >
+        </marquee>
+
+        <p class="text-center">© 2023, built with bootsrap because why not?.</p>
+      </footer>
+    </div>
+
+    <!-- Javacript code -->
     <script>
       const toggleButton = document.getElementById("mode-toggle");
       const body = document.body;
