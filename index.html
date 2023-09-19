@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bruce Minanga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+</head>
+
+<body style="background-color: darkgrey;">
+    <p>This is Bruce Minangas website</p>
+    <header class="text-light text-center p-5 pb-0">
+        <h1>Bruce 米南加</h1>
+        <p>Anxieties that keep me awake</p>
+    </header>
+
+    <!-- tabs -->
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="padding-left:13.5%;">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                type="button" role="tab" aria-controls="pills-disabled" aria-selected="false"
+                disabled>Bruceminanga@fedora |</button>
+        </li>
+
+        <!-- who tab button -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="who-tab-tab" data-bs-toggle="pill" data-bs-target="#who-tab"
+                type="button" role="tab" aria-controls="who-tab" aria-selected="true">Who?</button>
+        </li>
+
+        <!-- Projects tab button -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="project-tab-tab" data-bs-toggle="pill" data-bs-target="#project-tab"
+                type="button" role="tab" aria-controls="project-tab" aria-selected="false">Projects?</button>
+        </li>
+
+        <!-- Storyline tab button-->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="storyline-tab-tab" data-bs-toggle="pill" data-bs-target="#storyline-tab"
+                type="button" role="tab" aria-controls="storyline-tab" aria-selected="false">Storyline?</button>
+        </li>
+
+        <!-- Donate tab button -->
+        <!-- <li class="nav-item" role="presentation"> -->
+        <!-- <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" -->
+        <!-- type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Donate</button> -->
+        <!-- </li> -->
+
+    </ul>
+
+    <section>
+        <div class=" container bg-dark" style="width: 70%;">
+
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-- who tab content -->
+                <div class="tab-pane fade show active" id="who-tab" role="tabpanel" aria-labelledby="who-tab-tab"
+                    tabindex="0">
+                    <h2 class="text-light" style=" padding-left:50px"><br>About Me</h2>
+                    <p class="text-light lead" style=" padding-left:50px; padding-right:50px;">Hello there! I'm Bruce,
+                        your go-to IT guy specializing in top-notch web development, Linux System Administration and
+                        DevSecOps Engineering. I also design logos which i mostly use in the websites that i create.
+                        Below are among the skills I posses:</p>
+
+                    <div>
+                        <div class="accordion accordion-flush p-5 pt-0" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        DevSecOps Engineering
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        I'm really good at making sure computer programs are safe from bad stuff. I help
+                                        teams work together and use special tools to keep things safe and follow the
+                                        rules. I like solving problems and making sure no one can mess with our computer
+                                        stuff. <br>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            Check tools learned
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tools i
+                                                            learned as a DevSecOps Engineer
+                                                        </h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Linux System Administration
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 65%">65%</div>
+                                                        </div> <br>
+                                                        CI/CD
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 0%">0%
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Website developer
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        I'm like a builder, but for websites! I make websites look pretty and work
+                                        nicely for people to use. I'm good at using computer codes to do it. I like
+                                        learning new things and making websites that make people happy.<br>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal2">
+                                            Check tools learned
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tools i
+                                                            learned as a web developer
+                                                        </h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Bootsrap
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 65%">65%</div>
+                                                        </div> <br>
+                                                        Python Django
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 40%">40%
+                                                            </div>
+
+                                                        </div> <br>
+                                                        Html and css
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 65%">65%
+                                                            </div>
+                                                        </div> <br>
+                                                        Javascript
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 15%">15%</div>
+                                                        </div> <br>
+                                                        SQL
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 10%">10%</div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Hire
+                                                                Me</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Linux System Administration
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        I am a skilled Linux system administrator with a wealth of experience in
+                                        managing and maintaining Linux-based systems. Proficient in deploying,
+                                        configuring, and troubleshooting servers, I excel in ensuring the reliability,
+                                        security, and optimal performance of IT infrastructure. My expertise includes
+                                        server virtualization, shell scripting, automation, and user support. With a
+                                        strong commitment to keeping systems up and running smoothly, I am a proactive
+                                        problem solver and a valuable asset for maintaining the stability and efficiency
+                                        of Linux environments.
+                                        <br>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal3">
+                                            Check tools learned
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal3" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tools i
+                                                            learned as a Linux System Administrator
+                                                        </h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Essential Commands
+                                                        <div class="progress">
+
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 60%">60%</div>
+                                                        </div> <br>
+                                                        Web Servers(Apache)
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 20%">20%
+                                                            </div>
+
+                                                        </div> <br>
+                                                        Operation of running systems
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 65%">65%
+                                                            </div>
+                                                        </div> <br>
+
+                                                        User and group management
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 90%">90%</div>
+                                                        </div> <br>
+                                                        Service Configuration
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 60%">60%
+                                                            </div>
+                                                        </div><br>
+
+                                                        Storage Management
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 80%">80%
+                                                            </div>
+                                                        </div><br>
+
+                                                        Containers (Docker/Podman)
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 20%">20%
+                                                            </div>
+                                                        </div><br>
+
+                                                        Bash Script
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 5%">5%
+                                                            </div>
+                                                        </div><br>
+
+                                                        Python
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                role="progressbar" aria-label="Animated striped example"
+                                                                aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                                                                style="width: 50%">50%
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Hire
+                                                                Me</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects tab content -->
+                <div class="tab-pane fade" id="project-tab" role="tabpanel" aria-labelledby="project-tab-tab"
+                    tabindex="0">
+                    <h2 class="text-light" style=" padding-left:50px"><br>My Projects</h2>
+                    <p class="text-light lead" style=" padding-left:50px; padding-right:50px;">The following are my all
+                        time favourite projects:</p>
+
+                    <div class="accordion accordion-flush p-5 pt-0" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Invoice management system
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    This project allows one to generate invoices into pdf that can be handed over to
+                                    your client. It will show you all the invoices you have in the system after logging
+                                    in. You will be able to search the invoices by invoice number, amount and
+                                    customer name. You will also be able to add new invoices into the system. <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link"
+                                            href="https://github.com/bruceminanga/Django-INVOICE-MANAGEMENT-SYSTEM"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Social website app
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    Social application is more like facebook. This project allow users to share images
+                                    that they ﬁnd on the internet. This project has the following features:
+
+                                    An authentication system for users to register, log in, edit their proﬁle, and
+                                    change or reset their password.
+                                    A follow system to allow users to follow each other on the website.
+                                    Functionality to display shared images and a system for users to share images from
+                                    any website.
+                                    An activity stream that allows users to see the content uploaded by the people that
+                                    they follow <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link"
+                                            href="https://github.com/bruceminanga/Django-Social-Website-App-Django-3-By-Example-"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    E-learning
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    I created this project to help me understand the fundamentals of E-Learning
+                                    platform which seems to be the future app for students across the world.
+                                    <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link"
+                                            href="https://github.com/bruceminanga/Django-Social-Website-App-Django-3-By-Example-"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    E-commerce website
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    This project enables clients to browse products, add them to the cart, apply
+                                    discount codes, go through the checkout process, pay with a credit card, and
+                                    obtain an invoice. With a recommendation engine implemented, it is capable of
+                                    recommending products to customers. It also uses internationalization to
+                                    oﬀer the site in multiple languages.
+                                    <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link"
+                                            href="https://github.com/bruceminanga/Ecommerce-Function-based-view.DJANGO"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    News paper app
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    In this project, We’ll have an articles page where journalists can post articles,
+                                    set up permissions so only the author of an article can edit or delete
+                                    it, and finally add the ability for other users to write comments on each article.
+                                    <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link" href="https://github.com/bruceminanga/Djangonewspaperapp"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsesix" aria-expanded="false"
+                                    aria-controls="flush-collapsesix">
+                                    Discussion forum
+                                </button>
+                            </h2>
+                            <div id="flush-collapsesix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingsix" data-bs-parent="#project-tab">
+                                <div class="accordion-body">
+                                    This is an application that enables all students across schools to interact among
+                                    themselves
+                                    <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                                        <a class="nav-link"
+                                            href="https://github.com/bruceminanga/DJANGO-Discussion-forum-Complete"
+                                            target="_blank" rel="noopener noreferrer">Visit Project</a>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Story line content -->
+                <div class="tab-pane fade" id="storyline-tab" role="tabpanel" aria-labelledby="storyline-tab-tab"
+                    tabindex="0">
+                    <h2 class="text-light" style=" padding-left:50px"><br>My Story</h2>
+                    <p class="text-light lead" style=" padding-left:50px; padding-right:50px;"> Wanna hear from my
+                        story? Well, it all started in January 2020 when everyone was hoping for a good year. But
+                        something
+                        funny happened! Corona! I had alot of free time and decided to spent some of the time learning
+                        Linux System Administration, which is like being a computer expert. And you know what? I did!.
+                        Infact, In 2021, I discovered something super cool called Python and Django, which are special
+                        ways of coding. The learning curve was steep. This did not seem fair. Not fair at all! So, there
+                        you go. Those were the opening words to my story line.But that is not the story you will read.
+                        What you are reading right now is called a framing device (A story that wraps around the main
+                        story). Now lets get your story started. And it's not about hacking. Not at all. The story
+                        begins In the year 2022, I successfully completed my undergraduate Computer Science course.
+                        Currently, my main focus is on web development, where I create awesome websites. My goal is to
+                        become really, really good at it! I'm also excited to explore the world of DevSecOps, which
+                        involves protecting and strengthening digital systems. In my free time, I love to immerse myself
+                        in various activities such as Computer Repair, Problem-Solving, Teaching and doing some small
+                        projects for my family and friends. This helps me to continuously expand my knowledge and stay
+                        ahead in the ever-evolving tech landscape. Lastly, I love Collaborating with others. I genuinely
+                        enjoy working as part of a team. Let's join forces and create fantastic, easy-to-use products
+                        together If you're looking for someone with a passion for technology. </p> <br>
+
+
+                </div>
+
+
+
+                <!-- donate tab content     -->
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                    tabindex="0">...</div>
+            </div>
+
+    </section>
+
+    <div class="position-relative container p-5 mb-0">
+        <!-- Footer -->
+        <footer id="main-footer" class="mb-0">
+            <p class="text-center">Spy on me via 👀:</p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/bruceminanga" target="_blank"
+                        rel="noopener noreferrer">github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://t.me/bruceminanga" target="_blank"
+                        rel="noopener noreferrer">telegram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:bruceminanga@gmail.com">email</a>
+                </li>
+            </ul>
+            <br />
+            <br />
+
+            <marquee class="quotes" direction="left"><span>This website has a better view on larger screen, proceed with
+                    caution !!1!</span><span>The projects featured on this website are my all-time favorites. For more
+                    of my projects, please visit my GitHub account.</span><span>
+                    My eyesight got worse due to too much exposer on laptops
+                    screen.</span>
+                </span>
+                Don't be surprised to see Chinese characters on my website. It's simply a translation
+                of my name into Chinese, as I hope to improve my skills in Kung Fu.</span>
+            </marquee>
+
+            <p class="text-center">© 2023, built with bootsrap because why not?</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
